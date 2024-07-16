@@ -31,6 +31,10 @@ To accommodate these limitations, I had to completely redesign the raycasting an
 ### DDA Line Algorithm
 Despite being somewhat outdated, the DDA algorithm is an excellent educational tool for understanding the challenges and solutions in line rasterization. By implementing this algorithm, I was able to overcome the limitations of the Arduboy platform and achieve the desired raycasting visualization.
 
+<p align="center">
+  <img src="images/game.gif" alt="gamecycle" width="370" />
+</p>
+
 ## How to Run the Project
 1. Setup Arduboy Development Environment by using this [tutorial](https://community.arduboy.com/t/make-your-own-arduboy-game-part-1-setting-up-your-computer/7924) to completely setup your computer to work with Arduboy.
 2. Clone the Repository.
