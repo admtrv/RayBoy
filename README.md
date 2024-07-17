@@ -1,4 +1,4 @@
-# RayBoy: Efficient Raycasting Visualization for Arduboy
+# RayBoy
 
 This repository contains a project originally developed for visualizing raycasting in the console. The goal was to port this project to the Arduboy platform. Below, you'll find an overview of the project's motivation, the Arduboy's characteristics, and the challenges and solutions encountered during the porting process.
 
