@@ -5,20 +5,29 @@ This repository contains a project originally developed for visualizing raycasti
 ## Project Motivation
 I started with a simple yet engaging [project](https://github.com/admtrv/RayCasting) that visualized raycasting in the console using ASCII characters. The goal was to create a retro-style visualization using just standart console window and C programming language. After successfully achieving this, I decided to take on the challenge of porting this project to [Arduboy](https://www.arduboy.com/), a small, portable gaming platform with limited resources.
 
-## Arduboy Characteristics
-**Processor**: ATmega32u4 (same as Arduino Leonardo & Micro)
+## Arduboy
+Arduboy is a miniature game system the size of a credit card. It is open source so you can create your own games.
 
-**Memory**: 32KB Flash, 2.5KB RAM, 1KB EEPROM
+<p align="center">
+  <img src="images/arduboy.jpg" alt="arduboy" width="420" />
+</p>
 
-**Inputs**: 6 Momentary Tactile Buttons
 
-**Outputs**: 128×64 1Bit OLED, 4 Ch. Piezo Speaker & Blinky LED
+### Characteristics
+- **Processor**: ATmega32u4 (same as Arduino Leonardo & Micro)
 
-**Battery**: 180 mAh Thin-Film Lithium Polymer
+- **Memory**: 32KB Flash, 2.5KB RAM, 1KB EEPROM
 
-**Connectivity**: Micro-USB 2.0 w/ built-in HID profile
+- **Inputs**: 6 Momentary Tactile Buttons
+
+- **Outputs**: 128×64 1Bit OLED, 4 Ch. Piezo Speaker & Blinky LED
+
+- **Battery**: 180 mAh Thin-Film Lithium Polymer
+
+- **Connectivity**: Micro-USB 2.0 w/ built-in HID profile
 
 ## Challenges and Solutions
+
 ### Initial Project Considerations
 In the initial console-based project, performance was not a major concern. The primary limitation was the console output, which was managed efficiently using the 'curses' library. This allowed me to write a straightforward, albeit not the most optimized, raycasting algorithm. The focus was more on visual correctness and educational value rather than computational efficiency.
 
